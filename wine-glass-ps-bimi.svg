@@ -10,63 +10,63 @@
   <!-- Transparent background -->
   <rect x="0" y="0" width="1024" height="1024" fill="none"/>
 
-  <!-- Elegant wine glass outline -->
-  <g fill="none" stroke="#000000" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Burgundy wine glass outline -->
+  <g fill="none" stroke="#000000" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
 
-    <!-- Rim (top ellipse for 3D feel) -->
-    <ellipse cx="512" cy="220" rx="192" ry="28"/>
+    <!-- Rim -->
+    <ellipse cx="512" cy="220" rx="190" ry="22"/>
 
     <!-- Bowl -->
-    <path d="M320 220
-             C340 460 420 560 512 560
-             C604 560 684 460 704 220"/>
+    <path d="M322 220
+             C280 390 360 580 512 620
+             C664 580 744 390 702 220"/>
 
     <!-- Stem -->
-    <path d="M512 560
+    <path d="M512 620
              L512 760"/>
 
-    <!-- Base stem join -->
-    <path d="M470 760
-             H554"/>
+    <!-- Stem join -->
+    <path d="M480 760
+             H544"/>
 
-    <!-- Base (oval disc) -->
-    <ellipse cx="512" cy="820" rx="170" ry="26"/>
+    <!-- Base -->
+    <ellipse cx="512" cy="820" rx="175" ry="24"/>
   </g>
 
-  <!-- PS initials inside the bowl -->
+  <!-- PS initials (now with clearly visible separation) -->
   <g fill="#1f5f3a">
 
-    <!-- P -->
-    <path d="M440 300
-             H490
-             C545 300 575 335 575 380
-             C575 425 545 460 490 460
-             H470
-             V520
-             H440
+    <!-- P (moved further left to create visible gap) -->
+    <path d="M355 380
+             H405
+             C470 380 505 415 505 460
+             C505 505 470 540 405 540
+             H385
+             V590
+             H355
              Z
-             M470 330
-             V430
-             H490
-             C520 430 540 410 540 380
-             C540 350 520 330 490 330
+             M385 405
+             V515
+             H405
+             C440 515 465 490 465 460
+             C465 430 440 405 405 405
              Z"/>
 
-    <!-- S -->
-    <path d="M610 330
-             C610 295 580 275 540 275
-             C500 275 470 295 470 325
-             C470 355 495 375 535 385
-             C580 395 595 410 595 435
-             C595 460 570 480 535 480
-             C500 480 470 460 470 435
-             H460
-             C460 485 500 515 540 515
-             C590 515 630 485 630 435
-             C630 385 590 360 545 350
-             C505 340 495 330 495 315
-             C495 300 515 290 540 290
-             C565 290 585 300 585 330
+    <!-- S (unchanged) -->
+    <path d="M665 405
+             C665 365 630 340 585 340
+             C540 340 505 365 505 395
+             C505 425 535 450 580 460
+             C630 470 650 495 650 525
+             C650 560 620 585 580 585
+             C540 585 505 560 505 525
+             H490
+             C490 585 535 620 585 620
+             C645 620 690 585 690 525
+             C690 455 645 430 595 420
+             C550 410 540 395 540 380
+             C540 360 560 350 585 350
+             C610 350 630 360 630 405
              Z"/>
   </g>
 
