@@ -33,7 +33,7 @@
     <ellipse cx="512" cy="820" rx="175" ry="24"/>
   </g>
 
-  <!-- PS initials (raised to sit just under the rim) -->
+  <!-- PS initials (P stem extended to match S height) -->
   <g fill="#1f5f3a" transform="translate(0,-55)">
 
     <!-- P -->
@@ -42,7 +42,7 @@
              C470 380 505 415 505 460
              C505 505 470 540 405 540
              H385
-             V590
+             V620
              H355
              Z
              M385 405
