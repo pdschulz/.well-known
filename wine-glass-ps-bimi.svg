@@ -33,10 +33,10 @@
     <ellipse cx="512" cy="820" rx="175" ry="24"/>
   </g>
 
-  <!-- PS initials (now with clearly visible separation) -->
-  <g fill="#1f5f3a">
+  <!-- PS initials (raised to sit just under the rim) -->
+  <g fill="#1f5f3a" transform="translate(0,-55)">
 
-    <!-- P (moved further left to create visible gap) -->
+    <!-- P -->
     <path d="M355 380
              H405
              C470 380 505 415 505 460
@@ -52,7 +52,7 @@
              C465 430 440 405 405 405
              Z"/>
 
-    <!-- S (unchanged) -->
+    <!-- S -->
     <path d="M665 405
              C665 365 630 340 585 340
              C540 340 505 365 505 395
